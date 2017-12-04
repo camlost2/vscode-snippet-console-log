@@ -1,8 +1,6 @@
-# console.log() snippet for VS Code
-The only plus in this snippet is that **it adds those separator lines around your log** which can make it easier to spot
-your logs if you have a lot of other logs in the console, or if they are hard to filter.
+# console.log() snippet for VS Code with multi-cursor
 
-![Example console.log() snippet for VS Code](./assets/console.log.snippet.gif)
+![Example console.log() snippet for VS Code]
 
 ## Install
 Just got to extensions (`Shift+Cmd+X`), and type `console.log` in the search bar. Install the extension and click `Reload`.

@@ -1,20 +1,20 @@
 {
-    "name": "console-log-snippet-javascript",
-    "publisher": "leventebalogh",
-    "description": "A trivial but useful console.log() snippet for VS Code, which adds two separator lines around your comment.",
+    "name": "console-log-snippet-js-multicursor",
+    "publisher": "camlost",
+    "description": "A trivial but useful console.log() snippet for VS Code, which makes uses of multiple cursor",
     "version": "0.1.0",
-    "engines": { "vscode": "0.10.x" },
+    "engines": {
+        "vscode": "0.10.x"
+    },
     "categories": ["Snippets"],
-    "repository":{
-        "type" : "git",
-        "url" : "https://github.com/leventebalogh/vscode-snippet-console-log"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/camlost2/vscode-snippet-console-log"
     },
     "contributes": {
-        "snippets": [
-            {
-                "language": "javascript",
-                "path": "./snippets/javascript.json"
-            }
-        ]
+        "snippets": [{
+            "language": "javascript",
+            "path": "./snippets/javascript.json"
+        }]
     }
 }

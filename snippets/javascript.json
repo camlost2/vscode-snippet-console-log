@@ -1,11 +1,9 @@
 {
-    "Console Log": {
+	"Console Log": {
 		"prefix": "console.log",
 		"body": [
-			"console.log('------------------------------------');",
-			"console.log($0);",
-			"console.log('------------------------------------');"
+			"console.log('$1 = ' + $1);"
 		],
-		"description": "Adds a nice console log statement, with two separator lines so it is easier to spot in the console."
+		"description": "Log output to console with variable name and value"
 	}
 }
